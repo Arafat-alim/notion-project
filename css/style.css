@@ -379,6 +379,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .farmer__main {
@@ -442,16 +443,16 @@ footer {
 }
 
 .btn--chat {
+    border: 2px solid #fff;
     padding: 15px 50px;
     margin: 25px 0;
-    border-color: var(--theme-color);
+    border-color: black;
     background-color: transparent;
-    color: var(--theme-color);
     font-weight: 600;
 }
 
 .btn--chat:hover {
-
     background-color: var(--theme-color);
+    border-color: #fff;
     color: #fff;
 }
