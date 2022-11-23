@@ -210,22 +210,8 @@ h2 {
     width: 100%;
 }
 
-/* products */
-
-/* Partner */
-
-/* promo */
 
 /* footer */
-
-/* footer:before {
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #000;
-    display: block;
-    top: 0
-} */
 
 footer {
     width: 100vw;
@@ -321,6 +307,50 @@ footer {
     background-color: var(--theme-color);
     padding: 15px 50px;
 
+}
+
+/* promo */
+
+#promo {
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#promo>img {
+    width: 100%;
+}
+
+
+.promo__img {
+    object-fit: cover;
+    z-index: 9999999;
+}
+
+.promo__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-color);
+    color: #fff;
+}
+
+.promo__head--one {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.45rem;
+}
+
+.promo__head--two {
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.promo_desc {
+    text-align: center;
 }
 
 /* counter  */
