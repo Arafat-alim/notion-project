@@ -257,6 +257,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 #featured-products>h1 {
@@ -320,4 +321,137 @@ footer {
     background-color: var(--theme-color);
     padding: 15px 50px;
 
+}
+
+/* counter  */
+#counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#counter>h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.counter__hub {
+    background-image: url("../images/amount-veg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.counter__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter__card>img {
+    margin-top: 25px;
+    width: 100px;
+    color: #fff;
+}
+
+.card__head {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.card__enquiry {
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* our farmers */
+#farmers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.farmer__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.farmer__main>h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.farmers__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.farmer__card {
+    border: 1px solid orange;
+    height: 550px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+
+}
+
+.farmer__card>img {
+    height: 70%;
+    z-index: 999;
+
+}
+
+
+.farmer__text {
+    background-color: #F4EEDE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.farmer__text:hover {
+    background-color: var(--theme-color);
+    color: #fff;
+}
+
+.farmer__name {
+    margin-top: 10px;
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+}
+
+.farmer__quote {
+    text-align: center;
+}
+
+.btn--chat {
+    padding: 15px 50px;
+    margin: 25px 0;
+    border-color: var(--theme-color);
+    background-color: transparent;
+    color: var(--theme-color);
+    font-weight: 600;
+}
+
+.btn--chat:hover {
+
+    background-color: var(--theme-color);
+    color: #fff;
 }

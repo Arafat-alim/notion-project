@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;700&family=Pacifico&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;700;800&family=Pacifico&display=swap"
         rel="stylesheet">
     <!-- icons cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -75,11 +75,6 @@
                 <h1>Featured Products</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus numquam architecto tempora
                     placeat expedita repellendus blanditiis eveniet dolorem fugit in.</p>
-                <div class="rating">
-                    <ul>
-                        <li><i class="fa-light fa-circle"></i></li>
-                    </ul>
-                </div>
                 <div class="products">
                     <div class="single-product">
                         <img src="./images/apple.png" alt="apple" class="product-img">
@@ -137,11 +132,9 @@
             </article>
         </section>
         <section>
-            <article id="promo-img">
-                <img src="" alt="promo">
-            </article>
             <article id="promo">
-                <h1>For Bulk inquiry</h1>
+                <img src="./images/vegetables.png" alt="promo">
+                <h1 class="">For Bulk inquiry</h1>
                 <h2>Get Fresh Food From us</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam voluptas totam unde vel magnam
                     animi similique eum neque quae debitis.</p>
@@ -152,50 +145,65 @@
         <section>
             <article id="counter">
                 <h1>Website Hit Counter</h1>
-                <div>
-                    <h3>2987845</h3>
-                    <h4>Enquiries</h4>
-                </div>
-                <div>
-                    <h3>474987</h3>
-                    <h4>Farmers</h4>
-                </div>
-                <div>
-                    <h3>6544689</h3>
-                    <h4>Customers</h4>
+                <div class="counter__hub">
+                    <div class="counter__card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/599/599928.png" alt="">
+                        <h2 class="card__head">3456544</h2>
+                        <h3 class="card__enquiry">Enquires</h3>
+                    </div>
+                    <div class="counter__card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2303/2303778.png" alt="">
+                        <h2 class="card__head">2698745</h2>
+                        <h3 class="card__enquiry">Farmers</h3>
+                    </div>
+                    <div class="counter__card">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2153/2153786.png" alt="">
+                        <h2 class="card__head">257898</h2>
+                        <h3 class="card__enquiry">Customers</h3>
+                    </div>
                 </div>
             </article>
         </section>
         <section>
             <article id="farmers"">
-                <div>
-                    <h1>Our Farmers</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quae ullam atque possimus placeat
-                        sit porro totam quas amet beatae!</p>
+                <div class=" farmer__main">
+                <h1>Our Farmers</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quae ullam atque possimus placeat
+                    sit porro totam quas amet beatae!</p>
                 </div>
-                <div>
-                    <div>
-                        <img src="" alt=" farmer-picture">
-                <h2>Name of the Farmer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam harum ullam minus tenetur
-                    consequaturcommodi.</p>
-                <button>Chat</button>
-                </div>
-                <div>
-                    <img src="" alt=" farmer-picture">
-                    <h2>Name of the Farmer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam harum ullam minus tenetur
-                        consequaturcommodi.</p>
-                    <button>Chat</button>
-                </div>
-                <div>
-                    <img src="" alt=" farmer-picture">
-                    <h2>Name of the Farmer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam harum ullam minus tenetur
-                        consequaturcommodi.</p>
-                    <button>Chat</button>
-                </div>
+                <div class="farmers__cards">
+                    <div class="farmer__card">
+                        <img src="./images/farmer-one.png" alt=" farmer-picture">
+                        <div class="farmer__text">
+                            <h2 class="farmer__name">Rajiv Sivastav</h2>
+                            <p class="farmer__quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                                harum ullam minus tenetur
+                                consequaturcommodi.</p>
+                            <button class="btn--chat"><i class="fa-light fa-comment"></i>Chat</button>
+                        </div>
 
+                    </div>
+                    <div class="farmer__card">
+                        <img src="./images/farmer-two.png" alt=" farmer-picture">
+                        <div class="farmer__text">
+                            <h2 class="farmer__name">Ramratan Das</h2>
+                            <p class="farmer__quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                                harum ullam minus tenetur
+                                consequaturcommodi.</p>
+                            <button class="btn--chat">Chat</button>
+                        </div>
+                    </div>
+                    <div class="farmer__card">
+                        <img src="./images/farmer-three.png" alt=" farmer-picture">
+                        <div class="farmer__text">
+                            <h2 class="farmer__name ">Satish Agarwal</h2>
+                            <p class="farmer__quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                                harum ullam minus tenetur
+                                consequaturcommodi.</p>
+                            <button class="btn--chat">Chat</button>
+                        </div>
+
+                    </div>
                 </div>
             </article>
         </section>
