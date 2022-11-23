@@ -1,6 +1,6 @@
 :root {
-    --color-body: #918ca4;
-
+    --color-body: #000;
+    --theme-color: #3B946B
 }
 
 *,
@@ -33,8 +33,20 @@ li:hover {
 }
 
 p {
-    font-weight: bold;
+
     margin: 0;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
 }
 
 /* Header */
@@ -119,6 +131,7 @@ nav {
 /* hero */
 #hero {
     background-image: url("../images/hero--background.png");
+    object-fit: cover;
     background-size: cover;
     background-position: center;
     color: white;
@@ -129,6 +142,7 @@ nav {
     align-items: center;
     margin-bottom: 50px;
     position: relative;
+    width: 100%;
 }
 
 #hero>p {
@@ -189,6 +203,13 @@ h2 {
     font-size: 41px;
 }
 
+#featured>img {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
 /* products */
 
 /* Partner */
@@ -228,6 +249,75 @@ footer {
     margin-right: 10px;
 }
 
-hr {
-    font-weight: 50;
+
+
+/* featured-products */
+#featured-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#featured-products>h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.checked {
+    color: orange;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.single-product {
+    border: 1px solid rgb(245, 219, 171);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.single-product:hover {
+    -webkit-box-shadow: 11px 10px 21px -4px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 11px 10px 21px -4px rgba(0, 0, 0, 0.33);
+    box-shadow: 11px 10px 21px -4px rgba(0, 0, 0, 0.33);
+}
+
+.product-img {
+    object-fit: cover;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.rating {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.product__name {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.product__price {
+    margin-bottom: 15px;
+}
+
+.btn-cart {
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #fff;
+    background-color: var(--theme-color);
+    padding: 15px 50px;
+
 }
